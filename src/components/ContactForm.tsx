@@ -67,7 +67,7 @@ export function ContactForm() {
           type="text"
           required
           autoComplete="name"
-          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04]"
+          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
           placeholder="Jane Smith"
         />
       </div>
@@ -84,7 +84,7 @@ export function ContactForm() {
           type="email"
           required
           autoComplete="email"
-          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04]"
+          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
           placeholder="jane@example.com"
         />
       </div>
@@ -100,7 +100,7 @@ export function ContactForm() {
           name="message"
           required
           rows={5}
-          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] resize-y"
+          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] resize-y focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
           placeholder="Tell us what you're looking for..."
         />
       </div>
@@ -112,7 +112,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={state === "submitting"}
-        className="w-full bg-[#E85D04] hover:bg-orange-600 disabled:opacity-60 text-white px-8 py-4 font-bold uppercase tracking-wide rounded transition-colors"
+        className="w-full bg-[#E85D04] hover:bg-orange-600 disabled:opacity-60 text-white px-8 py-4 font-bold uppercase tracking-wide rounded transition-colors focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
       >
         {state === "submitting" ? "Sending…" : "Send Message"}
       </button>

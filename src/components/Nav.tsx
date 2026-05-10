@@ -63,7 +63,7 @@ export function Nav() {
         {/* Mobile hamburger */}
         <button
           onClick={() => setOpen(!open)}
-          className="md:hidden p-2 text-gray-300 hover:text-white"
+          className="md:hidden p-2 text-gray-300 hover:text-white rounded focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-[#111111]"
           aria-expanded={open}
           aria-label="Toggle navigation menu"
         >

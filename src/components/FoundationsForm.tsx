@@ -68,7 +68,7 @@ export function FoundationsForm() {
           type="text"
           required
           autoComplete="name"
-          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04]"
+          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
           placeholder="Jane Smith"
         />
       </div>
@@ -85,7 +85,7 @@ export function FoundationsForm() {
           type="email"
           required
           autoComplete="email"
-          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04]"
+          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
           placeholder="jane@example.com"
         />
       </div>
@@ -101,7 +101,7 @@ export function FoundationsForm() {
           name="phone"
           type="tel"
           autoComplete="tel"
-          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04]"
+          className="w-full border border-gray-300 rounded px-4 py-3 text-[#111111] focus:outline-none focus:border-[#E85D04] focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
           placeholder="(208) 555-0000"
         />
       </div>
@@ -113,7 +113,7 @@ export function FoundationsForm() {
       <button
         type="submit"
         disabled={state === "submitting"}
-        className="w-full bg-[#E85D04] hover:bg-orange-600 disabled:opacity-60 text-white px-8 py-4 font-bold uppercase tracking-wide rounded transition-colors"
+        className="w-full bg-[#E85D04] hover:bg-orange-600 disabled:opacity-60 text-white px-8 py-4 font-bold uppercase tracking-wide rounded transition-colors focus-visible:ring-2 focus-visible:ring-[#E85D04] focus-visible:ring-offset-2"
       >
         {state === "submitting" ? "Signing up…" : "Sign Up for Foundations — $99"}
       </button>
