@@ -68,7 +68,7 @@ export function Footer() {
           <ul className="space-y-2 text-sm">
             <li>
               <Link
-                href="/programs"
+                href="/programs#crossfit"
                 className="hover:text-[#E85D04] transition-colors"
               >
                 CrossFit Classes
@@ -76,7 +76,7 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="/programs"
+                href="/programs#personal-training"
                 className="hover:text-[#E85D04] transition-colors"
               >
                 Personal Training
@@ -84,7 +84,7 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="/programs"
+                href="/programs#olympic-lifting"
                 className="hover:text-[#E85D04] transition-colors"
               >
                 Olympic Lifting
@@ -92,7 +92,7 @@ export function Footer() {
             </li>
             <li>
               <Link
-                href="/programs"
+                href="/programs#endurance"
                 className="hover:text-[#E85D04] transition-colors"
               >
                 Endurance
@@ -163,6 +163,26 @@ export function Footer() {
                 <span className="text-white">{days}:</span> {hours}
               </p>
             ))}
+          </div>
+          <div className="mt-5 flex gap-4">
+            <a
+              href="https://www.instagram.com/thepackcrossfit/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="The Pack CrossFit on Instagram"
+              className="hover:text-[#E85D04] transition-colors"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://www.facebook.com/thepackcrossfit"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="The Pack CrossFit on Facebook"
+              className="hover:text-[#E85D04] transition-colors"
+            >
+              Facebook
+            </a>
           </div>
         </div>
       </div>

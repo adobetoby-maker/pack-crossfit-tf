@@ -18,7 +18,8 @@ export function buildMetadata(
   const ogImage = "/og-image.jpg"
 
   return {
-    title: fullTitle,
+    // Pass only the base title so the layout template doesn't duplicate the suffix
+    title,
     description,
     metadataBase: new URL(siteInfo.url),
     alternates: { canonical: path },

@@ -49,6 +49,7 @@ export default function ProgramsPage() {
           {programs.map((program, index) => (
             <div
               key={program.id}
+              id={program.id}
               className={`grid grid-cols-1 lg:grid-cols-2 gap-10 items-center ${
                 index % 2 === 1 ? "lg:grid-flow-col-dense" : ""
               }`}
